@@ -226,6 +226,11 @@ $(".btn-main_map").click(function(event) {
 			myMap.geoObjects.add(myPlacemark);
 			myMap.geoObjects.add(myPlacemark2);
 
+			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    //... отключаем перетаскивание карты
+    myMap.behaviors.disable('drag');
+}
+
 		}
 
 
