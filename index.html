@@ -211,10 +211,14 @@
 				iconImageSize: [45, 50],
 			});
 
-			myPlacemark.events.add('click', function () {
-   
+$(".btn-main_map").click(function(event) {
+		event.preventDefault();
+		$(".modal-map").fadeOut(0);
+		var selectMap = $(this).attr("href");
+		$(selectMap).fadeIn(200);
+		$(".main-map").addClass("active");
 
-});
+	});
 
 			myMap.controls.remove('searchControl');
 			myMap.behaviors.disable('scrollZoom');
