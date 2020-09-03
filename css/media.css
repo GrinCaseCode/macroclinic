@@ -57,6 +57,9 @@
 .table-schedule table td {
 	padding-left: 20px;
 }
+.main-map {
+	height: 100vh;
+}
 }
 
 /* Extra Small Devices, Phones */
