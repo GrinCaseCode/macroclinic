@@ -1,0 +1,120 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1400px) {
+.modal-map__title {
+    font-size: 36px;
+    line-height: 46px;
+}
+.modal-map__content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.modal-map__head {
+	display: block;
+}
+.modal-map__head .button-main {
+	padding: 12px 35px;
+	margin-top: 20px;
+}
+.table-schedule table td:nth-child(2) {
+    width: 240px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.modal-map {
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding-bottom: 30px;
+}
+.main-map.active {
+	right: 0;
+}
+.main-map {
+	height: 500px;
+}
+.modal-map__content {
+	max-width: 100%;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.modal-map__name {
+    font-size: 20px;
+    line-height: 31px;
+    margin-top: 27px;
+    margin-bottom: 15px;
+}
+.modal-map__title {
+    font-size: 31px;
+    line-height: 40px;
+}
+.table-schedule table td {
+	padding-left: 20px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.table-schedule__name {
+    font-size: 15px;
+    line-height: 25px;
+}
+.table-schedule__time {
+    font-size: 13px;
+    line-height: 22px;
+    padding-left: 31px;
+    }
+    .modal-map__title {
+    font-size: 24px;
+    line-height: 23px;
+}
+.modal-map .contact-payment, .modal-map .contact-phone, .modal-map .contact-location {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 29px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1600px) {
+	.container {
+    max-width: 1170px;
+}
+}
